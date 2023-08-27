@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>To Do List</title>
+</head>
+<body>
+    <main>
+        <div class="mainBody">
+        <h2>Weekly To-Do List<span class="material-symbols-outlined">
+            checklist
+            </span></h2>
+        <div class="firstRow">
+            <div class="sunday">
+                <h3>
+                    <span class="material-symbols-outlined">
+                        calendar_today
+                    </span>
+                    Sunday
+                </h3>
+                <div class="tasks-container" id="sunday-tasks">
+                  
+                </div>
+                <button class="add-to-list" onclick="addTask('sunday-tasks')">Add a new task</button>
+                
+            </div>
+            <div class="monday">
+                <h3><span class="material-symbols-outlined">
+                    calendar_today
+                    </span>Monday</h3>
+                    <div class="tasks-container" id="monday-tasks">
+                       
+                    </div>
+                    <button class="add-to-list" onclick="addTask('monday-tasks')">Add a new task</button>
+                    
+            </div>
+            <div class="tuesday">
+                <h3><span class="material-symbols-outlined">
+                    calendar_today
+                    </span>Tuesday</h3>
+                    <div class="tasks-container" id="tuesday-tasks">
+                        
+                    </div>
+                    <button class="add-to-list" onclick="addTask('tuesday-tasks')">Add a new task</button>
+                   
+            </div>
+            <div class="wednesday">
+                <h3><span class="material-symbols-outlined">
+                    calendar_today
+                    </span>Wednesday</h3>
+                    <div class="tasks-container" id="wednesday-tasks">
+                       
+                    </div>
+                    <button class="add-to-list" onclick="addTask('wednesday-tasks')">Add a new task</button>
+                    
+            </div>
+        </div>
+        <div class="secondRow">
+            <div class="thursday">
+                <h3><span class="material-symbols-outlined">
+                    calendar_today
+                    </span>Thursday</h3>
+                    <div class="tasks-container" id="thursday-tasks">
+                        
+                    </div>
+                    <button class="add-to-list" onclick="addTask('thursday-tasks')">Add a new task</button>
+                    
+            </div>
+            <div class="friday">
+                <h3><span class="material-symbols-outlined">
+                    calendar_today
+                    </span>Friday</h3>
+                    <div class="tasks-container" id="friday-tasks">
+                        
+                    </div>
+                    <button class="add-to-list" onclick="addTask('friday-tasks')">Add a new task</button>
+                   
+            </div>
+            <div class="saturday">
+                <h3><span class="material-symbols-outlined">
+                    calendar_today
+                    </span>Saturday</h3>
+                    <div class="tasks-container" id="saturday-tasks">
+                       
+                    </div>
+                    <button class="add-to-list" onclick="addTask('saturday-tasks')">Add a new task</button>
+                    
+            </div>
+        </div>
+    </div>
+    </main>
+    <script src="Assignment-5.js"></script>
+</body>
+
+</html>

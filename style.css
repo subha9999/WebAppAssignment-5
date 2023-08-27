@@ -1,0 +1,191 @@
+.firstRow{
+    display: flex;
+    margin:30px;
+    justify-content: space-evenly;
+}
+.mainBody{
+    background-image: url("Images/getty_500954400_401583.jpg");
+    background-size: 1520px 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width:100vw;
+    height: 100vh;
+    
+}
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px; 
+    margin-bottom:5px;
+}
+.save-button{
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:10px;
+    border-radius: 20px;
+    color: aliceblue;
+    background:rgba(2, 64, 163, 0.614);
+}
+.task-checkbox {
+    margin-right: 5px; 
+}
+.mainBody h2 .material-symbols-outlined{
+    vertical-align: middle;
+    padding:5px;
+}
+
+.material-symbols-outlined {
+    vertical-align: text-bottom;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.mainBody h2{
+    margin-top:20px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: rgb(2, 48, 11);
+    font-size: xx-large;
+}
+.secondRow{
+    display: flex;
+    margin:30px;
+    justify-content: space-evenly;
+}
+ .add-to-list{
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:10px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+.save-task{
+    margin-top:20px;
+    margin-bottom:20px;
+    padding:10px;
+    border-radius: 20px;
+    color: aliceblue;
+}
+.sunday{
+    background-color: rgba(202, 6, 91, 0.408); 
+    border-radius: 10px; 
+    padding: 10px; 
+    margin: 10px; 
+    width: 300px; 
+    box-sizing: border-box; 
+    text-align: center; 
+    font-size:large;
+    
+}
+.sunday .add-to-list{
+    background-color: rgb(124, 2, 84);
+}
+.sunday .save-task{
+    background-color: rgb(124, 2, 84);
+}
+.monday{
+    background-color: rgba(143, 6, 202, 0.574); 
+    border-radius: 10px; 
+    padding: 10px; 
+    margin: 10px; 
+    width: 300px; 
+    box-sizing: border-box; 
+    text-align: center; 
+    font-size:large;
+    
+}
+.monday .add-to-list{
+    background-color: rgb(56, 3, 101);
+}
+.monday .save-task{
+    background-color:  rgb(56, 3, 101);
+}
+.tuesday{
+    background-color: rgba(202, 130, 6, 0.46); 
+    border-radius: 10px; 
+    padding: 10px; 
+    margin: 10px; 
+    width: 300px; 
+    box-sizing: border-box; 
+    text-align: center; 
+    font-size:large;
+    
+}
+.tuesday .add-to-list{
+    background-color: rgb(127, 72, 1);
+}
+.tuesday .save-task{
+    background-color: rgb(127, 72, 1);
+}
+.wednesday{
+    background-color: rgba(6, 176, 202, 0.478); 
+    border-radius: 10px; 
+    padding: 10px; 
+    margin: 10px; 
+    width: 300px; 
+    box-sizing: border-box; 
+    text-align: center; 
+    font-size:large;
+    
+}
+.wednesday .add-to-list{
+    background-color: rgb(0, 123, 128);
+}
+.wednesday .save-task{
+    background-color:  rgb(0, 123, 128);
+}
+.thursday{
+    background-color: rgba(2, 55, 134, 0.564); 
+    border-radius: 10px; 
+    padding: 10px; 
+    margin: 10px; 
+    width: 300px; 
+    box-sizing: border-box; 
+    text-align: center; 
+    font-size:large;
+    
+}
+.thursday .add-to-list{
+    background-color: rgb(1, 4, 180);
+}
+.thursday .save-task{
+    background-color: rgb(1, 4, 180);
+}
+.friday{
+    background-color: rgba(6, 202, 13, 0.407); 
+    border-radius: 10px; 
+    padding: 10px; 
+    margin: 10px; 
+    width:300px; 
+    box-sizing: border-box; 
+    text-align: center; 
+    font-size:large;
+    
+}
+.friday .add-to-list{
+    background-color: rgb(2, 77, 12);
+}
+.friday .save-task{
+    background-color:  rgb(2, 77, 12);
+}
+.saturday{
+    background-color: rgba(158, 172, 0, 0.544); 
+    border-radius: 10px; 
+    padding: 10px; 
+    margin: 10px; 
+    width: 300px; 
+    box-sizing: border-box; 
+    text-align: center; 
+    font-size:large;
+    
+}
+.saturday .add-to-list{
+    background-color: rgb(79, 84, 0);
+}
+.saturday .save-task{
+    background-color: rgb(79, 84, 0);
+}
